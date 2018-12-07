@@ -1,0 +1,60 @@
+Configuration	ESC_v3_stm32f051
+STM32CubeMX 	4.22.1
+Date	10/02/2018
+MCU	STM32F051K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+COMP2	INP	COMP2_INP	PA3
+COMP2	INM	COMP2_INM	PA2
+SYS	Serial_Wire	SYS_SWCLK	PA14
+SYS	Serial_Wire	SYS_SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PA2	COMP2_INM	
+9	PA3	COMP2_INP	
+18	PA8	GPIO_Output	
+19	PA9	GPIO_Output	
+20	PA10	GPIO_Output	
+23	PA13	SYS_SWDIO	
+24	PA14	SYS_SWCLK	
+25	PA15	GPIO_Output	
+26	PB3	GPIO_Output	
+27	PB4	GPIO_Output	
+28	PB5	GPIO_Input	
+29	PB6	USART1_TX	
+30	PB7	USART1_RX	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : ESC_v3_stm32f051
+Project Folder : C:\Program Files\eclipse\workspace\STM32F1CubeMX\ESC_v3_stm32f051
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F0 V1.9.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : Balanced Size/Speed
+
+
+
+
+
+

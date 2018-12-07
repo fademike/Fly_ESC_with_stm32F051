@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<targetDefinitions xmlns="http://openstm32.org/stm32TargetDefinitions" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openstm32.org/stm32TargetDefinitions stm32TargetDefinitions.xsd">
+  <board id="esc_v3_stm32f051">
+    <name>ESC_v3_stm32f051</name>
+    <mcuId>stm32f051k8tx</mcuId>
+    <dbgIF>SWD</dbgIF>
+    <dbgDEV>ST-LinkV2-1</dbgDEV>
+  </board>
+</targetDefinitions>
